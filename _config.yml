@@ -14,7 +14,7 @@ title: "Introduction to Using the Shell in a High-Performance Computing Context"
 
 # Life cycle stage of the lesson
 # possible values: "pre-alpha", "alpha", "beta", "stable"
-life_cycle: "alpha"
+life_cycle: "stable"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -123,11 +123,11 @@ highlighter: rouge
 # workshop_host_location: "EPCC, The University of Edinburgh"
 # workshop_host_prompt: "[yourUsername@cirrus-login0 ~]$ "
 # workshop_host_homedir: "/lustre/home/tc001"
-# Example: ARCHER2 at EPCC, The University of Edinburgh
-workshop_host: "ARCHER2"
-workshop_host_id: "EPCC_ARCHER2"
-workshop_host_login: "login.archer2.ac.uk"
+# Example: ARCHER at EPCC, The University of Edinburgh
+workshop_host: "ARCHER"
+workshop_host_id: "EPCC_ARCHER"
+workshop_host_login: "login.archer.ac.uk"
 workshop_host_location: "EPCC, The University of Edinburgh"
-workshop_host_prompt: "[yourUsername@archer2-login0 ~]$ "
-workshop_host_homedir: "/home/tc001/tc001"
+workshop_host_prompt: "yourUsername@eslogin001:~>"
+workshop_host_homedir: "/home/tc011/tc011"
 
