@@ -245,13 +245,12 @@ files Documents
 ```
 {: .output}
 
-That was simple enough. Directories are deleted in a similar manner using `rm -r` (the `-r` option
-stands for 'recursive').
+That was simple enough. Directories are deleted in a similar manner using `rmdir`.
 
 ```
 $ ls
-$ rm -r Documents
-$ rm -r files
+$ rmdir Documents
+$ rmdir files
 $ ls
 ```
 {: .language-bash}
@@ -265,7 +264,7 @@ files
 
 What happened? As it turns out, `rmdir` is unable to remove directories that have stuff in them. To
 delete a directory and everything inside it, we will use a special variant of `rm`, `rm -rf
-directory`. This is probably the scariest command on UNIX- it will force delete a directory and all
+directory`. This is probably the scariest command on UNIX - it will recursively force delete a directory and all
 of its contents without prompting. **ALWAYS** double check your typing before using it... if you
 leave out the arguments, it will attempt to delete everything on your file system that you have
 permission to delete. So when deleting directories be very, very careful.
